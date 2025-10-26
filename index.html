@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Biography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">BLIXX</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="Profile.jfif" alt="Profile Photo" id="hero-photo">
+            </div>
+            <h1>Frinz Jayem B. Erana</h1>
+            <p class="tagline">BLIXX | Gamer | Music Lover</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/Blixxxxxxx" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/frinzjayemm?igsh=MXU5NHB3NmRlYXRucQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello, I'm Frinz Jayem B. Erana</h3>
+                    <p>
+                       I’m a person who enjoys simple yet meaningful things in life. My hobbies include playing games, listening to music, and watching anime these are the ways I relax and express myself. I love getting lost in good stories, whether through a game’s adventure, an anime’s emotion, or a song’s lyrics.
+                    </p>
+                    <p>
+                        I also enjoy spending time in silent places where I can think peacefully and enjoy the calm atmosphere. I’m more of an introverted type who values quiet moments and deep thoughts over loud environments. Even though I prefer silence, I’m friendly once you get to know me and enjoy meaningful conversations with people who share the same interests.
+                    </p>
+                    <div class="skills">
+                        <h4>Skills & Expertise</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Good Listener</span>
+                            <span class="skill-tag">Adaptable</span>
+                            <span class="skill-tag">Attentive</span>
+                            <span class="skill-tag">Strategic</span>
+                            <span class="skill-tag">Thoughtful</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Photo Gallery</h2>
+            <div class="upload-section">
+                <label for="photo-upload" class="upload-btn">
+                    <i class="fas fa-cloud-upload-alt"></i> Upload Photos
+                </label>
+                <input type="file" id="photo-upload" accept="image/*" multiple hidden>
+            </div>
+            <div class="gallery-grid" id="gallery-grid">
+    
+                <div class="gallery-item">
+                    <img src="photo1.jfif" alt="Gallery Image 1">
+                    <button class="delete-btn" title="Delete photo"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo2.jfif" alt="Gallery Image 2">
+                    <button class="delete-btn" title="Delete photo"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo3.jfif" alt="Gallery Image 3">
+                    <button class="delete-btn" title="Delete photo"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo4.jfif" alt="Gallery Image 4">
+                    <button class="delete-btn" title="Delete photo"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo5.jfif" alt="Gallery Image 5">
+                    <button class="delete-btn" title="Delete photo"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="gallery-item">
+                    <img src="photo6.jfif" alt="Gallery Image 6">
+                    <button class="delete-btn" title="Delete photo"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>erana.frinzjayem.llcc.edu.ph</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+63 995 794 5078</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lapu-Lapu City, Philippines</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 BLIXX. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox for full-size images -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
